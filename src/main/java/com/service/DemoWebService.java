@@ -10,4 +10,7 @@ public interface DemoWebService {
 
     @WebMethod
     public Double getResult(Integer a, Integer b, Integer c);
+
+    @WebMethod
+    public Double getResultNeg(Integer a, Integer b, Integer c);
 }

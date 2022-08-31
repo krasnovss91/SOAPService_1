@@ -19,5 +19,7 @@ public class DemoWebServiceClient {
         DemoWebService demoWebService = service.getPort(DemoWebService.class);
 
         System.out.println(demoWebService.getResult(1,2,-3));
+
+        System.out.println(demoWebService.getResultNeg(1,2,-3));
     }
 }
