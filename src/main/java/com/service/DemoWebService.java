@@ -7,7 +7,7 @@ import javax.jws.soap.SOAPBinding;
 @WebService
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface DemoWebService {
-
+ 
     @WebMethod
     public Double getResult(Integer a, Integer b, Integer c);
 
